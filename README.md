@@ -14,8 +14,12 @@
 - 記憶體: 32 GB 記憶體
 - 顯示卡: geforce RTX 2070
 
+## 需要下載的檔案
+- [LM Studio](https://installers.lmstudio.ai/win32/x64/0.3.18-3/LM-Studio-0.3.18-3-x64.exe)
+- [Python官方網站](https://www.python.org/downloads/)
+
 ## 環境安裝
-- 建議安裝Python3.13.5以上的版本。 這邊下載->[Python官方網站](https://www.python.org/downloads/)
+- 建議安裝Python3.13.5以上的版本。
 - 記得勾選"Add python.exe to PATH"
 
 ![Py 安裝畫面](https://raw.githubusercontent.com/akira6286/LLM-VTS/main/images/Py_Install.png)
