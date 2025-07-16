@@ -27,6 +27,8 @@
 - 左下角切換到Developer
 - 左方放大鏡符號搜尋qwen3-14b並下載
 - 在左側開發者頁面中於上方"選擇要載入的模型"
+- 並在左上角將Status狀態變為Running
+  
 ## 安裝方式
 1. 安裝 LM Studio 並載入 qwen3-14b 模型（推薦 OpenHermes 或 MythoMix）
 2. 安裝 Python 並執行 `setup/install_tts.bat`
