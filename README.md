@@ -9,7 +9,7 @@
 - 📅 每週記憶重組、自動進入新人格狀態
 
 ##安裝前導
-![Python.exe安裝](images/rin-angry.png)
+![Python.exe安裝](images/Py Install.png)
 
 ## 安裝方式
 1. 安裝 LM Studio 並載入 Mistral 7B 模型（推薦 OpenHermes 或 MythoMix）
