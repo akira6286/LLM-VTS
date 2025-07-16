@@ -12,7 +12,7 @@
 !(LLM-VTS/images/Py_Install.png)
 
 ## 安裝方式
-1. 安裝 LM Studio 並載入 Mistral 7B 模型（推薦 OpenHermes 或 MythoMix）
+1. 安裝 LM Studio 並載入 qwen3-14b 模型（推薦 OpenHermes 或 MythoMix）
 2. 安裝 Python 並執行 `setup/install_tts.bat`
 3. 啟動 `chat_loop.py`，凜將根據 prompt 開始對話
 4. OBS 中載入 Live2D 模型，並啟動 WebSocket
