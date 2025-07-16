@@ -8,6 +8,12 @@
 - 🎭 OBS 串接，Live2D 表情反應與互動劇情
 - 📅 每週記憶重組、自動進入新人格狀態
 
+## 建議配備
+需要 64 位元的處理器及作業系統
+處理器: i7-11代
+記憶體: 32 GB 記憶體
+顯示卡: geforce RTX 2070
+
 ## 環境安裝
 - 建議安裝Python3.13.5以上的版本。 這邊下載->[Python官方網站](https://www.python.org/downloads/)
 - 記得勾選"Add python.exe to PATH"
