@@ -6,6 +6,7 @@ import json
 VTS_URI = "ws://localhost:8001"
 
 # 🗝️ API Token（你從 VTS 授權視窗取得的長串密鑰）
+#API_TOKEN = "你的API Token"
 API_TOKEN = "1ba1f727964867318bf04635a099f6d73364dea9dfea432eff6575495fb095d8"
 
 # 🔐 認證流程
