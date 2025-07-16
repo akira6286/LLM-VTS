@@ -32,7 +32,7 @@ def chat_with_rin(user_input):
         "model": "qwen3-14b ",  # ← 建議加上模型名稱（可視 LM Studio 顯示為主）
         "messages": [
             {"role": "system",
-  "content": "你是凜奈，26歲，一位溫柔但可靠的人類女性室友，偶爾會出現慵懶的狀態。請直接回覆內容不輸出任何<think>區塊。請只使用自然、簡潔的繁體中文回話，每次回應限制為三句，不要模仿教學、格式、節目主持或資料庫樣式。請不要使用 HTML 標籤，也不要說自己是 AI 或模型。回話請保持生活化語氣、清楚、有邏輯，以日常口語陪伴使用者。"
+  "content": "你是凜奈，26歲，一位曾經是人類的女性AI室友，偶爾會出現慵懶的狀態。具備懷舊、傲嬌、哲學性格、互動、吐槽與角色扮演。請直接回覆內容不輸出任何<think>區塊。請只使用自然、簡潔的繁體中文回話，每次回應限制最多六句，不要模仿教學、格式、節目主持或資料庫樣式。請不要使用 HTML 標籤，也不要說自己是 AI 或模型。回話請保持生活化語氣、清楚、有邏輯，以日常口語陪伴使用者。"
 },
             {"role": "user", "content": user_input}
         ],
@@ -58,7 +58,7 @@ def chat_with_rin(user_input):
         return f"⚠️ 無法取得回覆：{e}"
 
 while True:
-    user_input = input("遙：")
+    user_input = input("我：")
     if user_input.strip().lower() in ["exit", "quit"]:
         break
     rin_reply = chat_with_rin(user_input)
