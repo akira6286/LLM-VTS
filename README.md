@@ -8,7 +8,7 @@
 - 🎭 OBS 串接，Live2D 表情反應與互動劇情
 - 📅 每週記憶重組、自動進入新人格狀態
 
-##安裝前導
+## 安裝前導
 (LLM-VTS/images/Py_Install.png)
 
 ## 安裝方式
