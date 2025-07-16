@@ -10,8 +10,7 @@
 
 ## 環境安裝
 - 建議安裝Python3.13.5以上的版本。 這邊下載->[Python官方網站](https://www.python.org/downloads/)
-- 
-- 
+
 ![Py 安裝畫面](https://raw.githubusercontent.com/akira6286/LLM-VTS/main/images/Py_Install.png)
 
 ## 安裝方式
