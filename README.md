@@ -11,7 +11,7 @@
 ## 環境安裝
 - 建議安裝Python3.13.5以上的版本
 - [Python官方網站](https://www.python.org/downloads/)
-![image](https://github.com/akira6286/LLM-VTS/blob/main/images/Py_Install.png)
+![Py 安裝畫面](https://raw.githubusercontent.com/akira6286/LLM-VTS/main/images/Py_Install.png)
 
 ## 安裝方式
 1. 安裝 LM Studio 並載入 qwen3-14b 模型（推薦 OpenHermes 或 MythoMix）
