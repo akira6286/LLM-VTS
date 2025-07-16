@@ -9,6 +9,8 @@
 - 📅 每週記憶重組、自動進入新人格狀態
 
 ## 環境安裝
+建議安裝Python3.13.5以上的版本
+[Python官方網站]([https://lmstudio.ai/docs/api/headless](https://www.python.org/downloads/))
 ![image](https://github.com/akira6286/LLM-VTS/blob/main/images/Py_Install.png)
 
 ## 安裝方式
