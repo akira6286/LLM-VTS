@@ -21,7 +21,7 @@
 4. OBS 中載入 Live2D 模型，並啟動 WebSocket
 5. 透過 `obs_trigger.py` 接收腳本回應進行表情變化
 
-## Prompt 設定說明
+## Prompt 設定說明 (暫時沒用，目前都在Main.py中)
 請參考 `llm/prompt_rin_core.json`，內含凜的核心性格模擬。
 
 > 「雖然我已經沒有真正的心臟，但記憶裡的失落還在跳動。」
