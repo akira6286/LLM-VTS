@@ -38,7 +38,7 @@
 ## 安裝方式
 1. 安裝 LM Studio 並載入 qwen3-14b 模型
 2. 安裝 Python 並執行 `setup/install_tts.bat`
-3. 啟動 `chat_loop.py`，凜將根據 prompt 開始對話
+3. 開啟 `啟動.bat`，凜將根據 prompt 開始對話
 4. OBS 中載入 Live2D 模型，並啟動 WebSocket
 5. 透過 `obs_trigger.py` 接收腳本回應進行表情變化
 
