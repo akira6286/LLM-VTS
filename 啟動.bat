@@ -7,7 +7,7 @@ echo 凜奈正在起床中...
 echo ================================
 
 REM 切換到 Python 程式所在資料夾（請根據實際路徑修改）
-cd /d "D:\MyProjects\LLM-VTS-main"
+cd /d "%~dp0"
 
 REM 啟動 main.py
 python main.py

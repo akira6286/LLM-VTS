@@ -1,12 +1,12 @@
 # config.py
 import json
 
-with open("settings.json", "r", encoding="utf-8") as f:
+with open("config/settings.json", "r", encoding="utf-8") as f:
     settings = json.load(f)
 
 # 🧠 Qwen 模型設定
-QWEN_API_URL = settings["qwen"]["api_url"] + "/v1/chat/completions"
-#QWEN_MODEL_NAME = "qwen3-14b"
+QWEN_API_URL = settings["qwen"]["api_url"]
+QWEN_MODEL_NAME = "qwen3-14b"
 
 # 🔧 回應行為
 TEMPERATURE = 0.3

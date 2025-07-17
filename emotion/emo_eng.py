@@ -1,7 +1,7 @@
 # emotion_engine.py
 
-from vts_websocket import trigger_expression
-from expression_manager import match_expression
+from vts.vts_websocket import trigger_expression
+from emotion.expression_manager import match_expression
 
 # 🎭 分析回覆並執行表情動作
 def react_to_text(text, debug=False):

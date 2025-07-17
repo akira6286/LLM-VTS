@@ -1,7 +1,7 @@
 {
   "qwen": {
     "model_name": "qwen3-14b",
-    "api_url": "http://127.0.0.1:1234",
+    "api_url": "http://localhost:1234/v1/chat/completions",
     "temperature": 0.3,
     "max_tokens": 256,
     "strip_think_block": true
