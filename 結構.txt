@@ -1,0 +1,28 @@
+main.py               V
+rin_core.py           V
+emotion_engine.py     V
+vts_cleaner.py        V
+config.py             V
+settings.json         V
+
+
+
+
+project_root/
+├── main.py                  # 主流程控制器
+├── config/
+│   ├── config.py            # Python版本設定載入
+│   └── settings.json        # 外部設定參數
+├── rin/
+│   ├── rin_core.py          # 凜的語言邏輯（Qwen3）
+│   └── rin_voice.py         # 凜的語音模組（如果啟用 TTS）
+├── emotion/
+│   ├── emo_eng.py           # 情緒判斷與表情觸發
+│   └── expression_manager.py# 表情映射邏輯（或 match_expression）
+├── vts/
+│   ├── VTS_cle.py           # 表情觸發封裝
+│   └── vts_websocket.py     # WebSocket 連接器（或第三方）
+├── utils/
+│   └── text_cleaner.py      # 清理 <think>、格式處理等工具
+├── README.md
+└── requirements.txt         # 依賴管理

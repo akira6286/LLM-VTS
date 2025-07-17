@@ -1,0 +1,28 @@
+{
+  "qwen": {
+    "model_name": "qwen3-14b",
+    "api_url": "http://127.0.0.1:1234",
+    "temperature": 0.3,
+    "max_tokens": 256,
+    "strip_think_block": true
+  },
+  "tts": {
+    "enabled": false,
+    "voice": "zh-TW-HsiaoYuNeural",
+    "style": "chat",
+    "debug": false
+  },
+  "vts": {
+    "enabled": true,
+    "debug": false
+  },
+  "character": {
+    "name": "凜奈",
+    "age": 26,
+    "persona": "懷舊、傲嬌、哲學性格。具備生活化語氣與吐槽力，請保持自然簡潔繁體中文。",
+    "prompt_max_lines": 6,
+    "avoid_tags": ["<think>", "<html>", "<format>"],
+    "disallow_identity": true
+  },
+  "mode": "dev"
+}
