@@ -1,6 +1,4 @@
-import asyncio
-import websockets
-import json
+import config.json
 
 # 🌐 WebSocket 設定
 VTS_URI = "ws://localhost:8001"
@@ -31,7 +29,7 @@ async def authenticate(websocket):
         print("❌ 認證失敗：請確認 API Token 是否正確")
         return False
 
-    print("✅ 認證成功：凜已辨識你的身份")
+    print("✅ 認證成功：凜奈已辨識你的身份")
     return True
 
 # 🎭 表情觸發函式

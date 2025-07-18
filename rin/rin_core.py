@@ -29,8 +29,8 @@ def chat_with_rin(user_input):
         response.raise_for_status()
         data = response.json()
         if "choices" not in data:
-            return "⚠️ 寮奈無法回覆：未取得有效回覆"
+            return "⚠️ 凜奈無法回覆：未取得有效回覆"
         raw_reply = data["choices"][0]["message"]["content"]
         return clean_qwen_response(raw_reply) if STRIP_THINK_BLOCK else raw_reply
     except Exception as e:
-        return f"⚠️ 寮奈無法回覆：{e}"
+        return f"⚠️ 凜奈無法回覆：{e}"
